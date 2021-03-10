@@ -46,5 +46,6 @@ if (ENABLE_PCH)
 endif()
 
 add_subdirectory(src)
+add_subdirectory(depends)
 
 add_executable(hestia_breakout::hestia_breakout ALIAS hestia_breakout)

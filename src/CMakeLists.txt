@@ -8,7 +8,8 @@ add_executable(hestia_breakout ${all_SRCS} ../include)
 
 target_link_libraries(hestia_breakout PRIVATE
         breakout_project_options
-        breakout_project_warnings)
+        breakout_project_warnings
+        hestia)
 
 target_include_directories(hestia_breakout PUBLIC ../include)
 

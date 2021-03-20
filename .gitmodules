@@ -1,0 +1,3 @@
+[submodule "depends/Hestia-Game-Engine"]
+	path = depends/Hestia-Game-Engine
+	url = https://github.com/DPriceDev/Hestia-Game-Engine

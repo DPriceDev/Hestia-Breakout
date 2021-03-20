@@ -13,15 +13,15 @@ public:
     ~BreakoutSession() override = default;
 
     void beginGame() override {
-
+        LOG_DEBUG("Game session", "begin game")
     }
 
-    void gameLoop(const double &deltaTime) override {
-        LOG_DEBUG(std::to_string(deltaTime))
+    void gameLoop(const double & /*deltaTime*/) override {
+
     }
 
     void endGame() override {
-
+        LOG_DEBUG("Game session", "end game")
     }
 };
 
